@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Application</string>
+    <string name="action_setting">Settings</string>
+    <string name="movieTitle">Movie Title</string>
+    <string name="movieDetails">Movie details</string>
+    <string name="plot">Plot</string>
+    <string name="rating">Rating</string>
+    <string name="release">Release Dates</string>
+    <string name="sortOrder">Sort Order</string>
+    <string name="mostPopular">Most popular</string>
+    <string name="highestRated">Highest rated</string>
+</resources>
