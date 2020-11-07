@@ -5,12 +5,12 @@ import retrofit2.http.GET;
 import retrofit2.http.Path;
 import retrofit2.http.Query;
 
-public interface APIinterface {
-@GET("3/movie/{category}")
-Call<Movies> listOfMovies(
-            @Path("category") String category, //or movie ID
+public interface DetailsInterface {
+    @GET("3/movie/{id}")
+    Call<MovieDetails> detailList(
+            @Path("id") String ID, //movie ID
             @Query("api_key") String apiKey,
             @Query("language") String language,
             @Query("page") int page
-);
+    );
 }
